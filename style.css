@@ -7,7 +7,7 @@ body
 {
     position: relative;
     background-size: cover;
-    overflow-x: hidden; 
+    overflow: hidden; 
     background-image: url(./bg.jpg);
 }
 nav
@@ -126,4 +126,46 @@ h1
 {
     top: 26rem;
     color: rgb(46, 52, 135);
+}
+.desc
+{
+    position: absolute;
+    top: 33rem;
+    left: 5rem;
+    width: 31rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
+.but
+{
+    width: 11rem;
+    height: 3rem;
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(87, 185, 255);
+    border-radius: 3rem;
+}
+.on
+{
+    background-color: rgb(87, 185, 255);
+    margin: 31rem 3rem;
+    &:hover
+    {
+        background-color: blue;
+        border: 2px solid blue;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+}
+.tw
+{
+    background-color: transparent;
+    &:hover
+    {
+        background-color: blue;
+        border: 2px solid blue;
+        cursor: pointer;
+        transition: 0.2s;
+    }
 }
