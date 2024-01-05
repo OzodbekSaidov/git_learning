@@ -3,6 +3,12 @@
     margin: 0;
     padding: 0;
 }
+body
+{
+    position: relative;
+    background-size: cover; 
+    background-image: url(./bg.jpg);
+}
 .nav1{
  height: 3.5rem;   
 display: flex;
@@ -25,19 +31,6 @@ a{
 color: white;
     margin-left: 10rem;
     font-size: 10px;
-}
-
-*
-{
-    margin: 0;
-    padding: 0;
-}
-body
-{
-    display: flex;
-    position: relative;
-    background-size: cover; 
-    background-image: url(./bg.jpg);
 }
 .man
 {
