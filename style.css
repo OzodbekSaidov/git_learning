@@ -10,10 +10,10 @@ body
     background-image: url(./bg.jpg);
 }
 .nav1{
- height: 3.5rem;   
-display: flex;
-justify-content: space-between;
-background-color: rgb(74, 67, 67);
+   height: 3.5rem;   
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(74, 67, 67);
 }
 .p1{
     margin-left: 4rem;
@@ -24,14 +24,12 @@ background-color: rgb(74, 67, 67);
 }
 
 .nav2{
-display: flex;
-justify-content: ;
-height: 2.5rem;
-background-color: rgb(7, 7, 60);
+   display: flex;
+   height: 2.5rem;
+   background-color: rgb(7, 7, 60);
 }
-a{
-    
-color: white;
+a{ 
+    color: white;
     margin-left: 10rem;
     font-size: 10px;
 }
