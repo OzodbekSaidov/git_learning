@@ -1,0 +1,29 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.nav1{
+ height: 3.5rem;   
+display: flex;
+justify-content: space-between;
+background-color: rgb(74, 67, 67);
+}
+.p1{
+    margin-left: 4rem;
+    color: blue;
+}
+.p7{
+    margin-right: 3rem;
+}
+
+.nav2{
+height: 2.5rem;
+background-color: rgb(7, 7, 60);
+}
+a{
+color: white;
+    margin-left: 10rem;
+    font-size: 10px;
+}
+
