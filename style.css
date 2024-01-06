@@ -6,48 +6,89 @@
 body
 {
     position: relative;
-    background-size: cover; 
+    background-size: cover;
+    overflow: hidden; 
     background-image: url(./bg.jpg);
 }
-.nav1{
- height: 3.5rem;   
-display: flex;
-justify-content: space-between;
-background-color: rgb(74, 67, 67);
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 2.5rem;
+    background-color: rgba(23, 13, 59, 0.658);
 }
-.p1{
-    margin-left: 4rem;
-    color: blue;
+.nomer
+{
+    margin-top: 9px;
 }
-.p7{
-    margin-right: 3rem;
+.img1
+{
+    margin: 0 5rem;
+}
+.img1 > img
+{
+    margin: 5px 3px;
+    height: 1.5rem;
+    cursor: pointer;
+    
+}
+.nav2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;   
+    color: white;
+    background-color: rgba(31, 31, 59, 0.658);
+}
+.des
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40rem;
+    height: 3.5rem;
+    margin: 0 6rem;
+}
+.des > p
+{
+    margin: 0 1rem;
+}
+.web
+{
+    display: flex;
+    width: 10rem;
+    height: 3.5rem;
+}
+.web
+{
+    display: flex;
+    width: 10rem;
+    height: 3.5rem;
+}
+.p1
+{
+    font-size: 1.5rem;
+    margin: 10px 4rem;
+    color: rgb(72, 81, 188);
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a
+{ 
+    color: white;
+    margin-left: 10rem;
+    font-size: 1rem;
+    text-decoration: none;
 }
 
-.nav2{
-display: flex;
-justify-content: ;
-height: 2.5rem;
-background-color: rgb(7, 7, 60);
-}
-a{
-    
-color: white;
-    margin-left: 10rem;
-    font-size: 10px;
-}
-.img{
+.img
+{
     display: flex;
     position: absolute;
     left: 70rem;
     
 }
-img{
-    margin: 4px;
-    width: 20px;
-    height: 20px;
-}
-
-
 .man
 {
     background-color: transparent;
@@ -55,8 +96,76 @@ img{
 h1
 {
     position: absolute;
-    top: 25rem;
+    top: 20rem;
+    left: 5rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13rem;
+    font-size: 9rem;
     color: rgb(61, 61, 61);
+}
+.chiz
+{
+    position: absolute;
+    top: 19rem;
+    left: 15rem;
+    font-size: 12rem;
+    color: blue;
+}
+.uni, .design
+{
+    position: absolute;
+    left: 18rem;
+    font-size: 4rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.uni
+{
+    top: 21rem;
+    color: white;
+}
+.design
+{
+    top: 26rem;
+    color: rgb(46, 52, 135);
+}
+.desc
+{
+    position: absolute;
+    top: 33rem;
+    left: 5rem;
+    width: 31rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    color: white;
+}
+.but
+{
+    width: 11rem;
+    height: 3rem;
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(87, 185, 255);
+    border-radius: 3rem;
+}
+.on
+{
+    background-color: rgb(87, 185, 255);
+    margin: 31rem 3rem;
+    &:hover
+    {
+        background-color: blue;
+        border: 2px solid blue;
+        cursor: pointer;
+        transition: 0.2s;
+    }
+}
+.tw
+{
+    background-color: transparent;
+    &:hover
+    {
+        background-color: blue;
+        border: 2px solid blue;
+        cursor: pointer;
+        transition: 0.2s;
+    }
 }
